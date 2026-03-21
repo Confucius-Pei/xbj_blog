@@ -1,0 +1,7 @@
+interface:
+  display_name: "Add Record"
+  short_description: "Add ledger records and totals."
+  default_prompt: "Use $add-record to read README.md, infer the fields needed for a family credit record, update the correct child section, and recalculate totals."
+
+policy:
+  allow_implicit_invocation: true
