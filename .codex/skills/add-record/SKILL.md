@@ -7,13 +7,33 @@ description: Add or correct family credit ledger entries in this repository's RE
 
 ## Workflow
 
-1. Read `README.md` before making any change.
-2. Discover the current ledger structure from the file itself, not memory.
-3. Parse the user's description into one or more point events.
-4. Infer every field needed for each row.
-5. Update the affected child tables.
-6. Recalculate all dependent totals.
-7. Read `README.md` again after editing to verify consistency.
+1. Read `.codex/REPO_MEMORY.md` before making any ledger change. If it is missing, continue with `README.md`.
+2. Read `README.md` before making any change.
+3. Treat `README.md` as the ledger source of truth for the current records and totals.
+4. Use `.codex/REPO_MEMORY.md` as supporting repo context, not as a replacement for the ledger.
+5. Append the user's raw record description to `data/raw-records.md` before converting it into structured ledger rows. If the file is missing, create it.
+6. Save the raw description as close to verbatim as possible. Do not normalize away details that may matter later.
+7. Include the effective record date at the start of the raw description text for each appended row.
+8. Discover the current ledger structure from the file itself, not memory alone.
+9. Parse the user's description into one or more point events.
+10. Infer every field needed for each row.
+11. Update the affected child tables.
+12. Recalculate all dependent totals.
+13. Read `README.md` again after editing to verify consistency.
+
+## Raw Record Log
+
+Use `data/raw-records.md` as the raw event log.
+
+For each user request that changes the ledger, append a markdown table row that includes:
+
+- `Logged Date`: the date the request is being processed
+- `Effective Date`: the event date used for the ledger rows
+- `Raw Description`: the user's raw description, kept as close to verbatim as possible
+
+Prefix the `Raw Description` cell with the effective date in brackets, for example `[2026-03-21] ...`.
+
+Keep the raw log in append-only order unless the user explicitly asks to edit or delete old raw entries.
 
 ## Required Data For Each Record
 
@@ -48,6 +68,7 @@ After adding, deleting, or correcting any record:
 - Set the `Current Points` value in the `Family Members` table to the same per-child total.
 - Set `Total family child credits` in `Current Summary` to the sum of all child totals.
 - Set `Last updated` to the most recent affected date.
+- If `.codex/REPO_MEMORY.md` contains current family data that becomes stale after the edit, update it to match the new ledger state.
 
 ## Editing Rules
 
@@ -64,3 +85,5 @@ Before finishing:
 - Verify each child's displayed current points matches the last row in that child's table.
 - Verify the family summary equals the sum of all children.
 - Verify the markdown table formatting is still readable.
+- Verify `.codex/REPO_MEMORY.md`, if present, is still aligned with the latest ledger totals and repo rules.
+- Verify `data/raw-records.md` contains the raw description for the change request you just processed.
