@@ -13,6 +13,8 @@ Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks f
 - `Current Summary` with total family child credits and last updated date
 - one `Credit Records` section per child
 - each child table uses columns: `Date`, `Category`, `Record`, `Points`, `Total`
+- each child table shows the newest record first
+- `Total` means the child's balance immediately after that record happened
 
 ## Current Family Data
 
@@ -23,8 +25,9 @@ Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks f
 
 ## Update Rules
 
-- Recalculate the running `Total` column after any add, delete, or correction.
-- Keep each child's `Current points` aligned with the last row in that child's table.
+- Insert new ledger rows at the top of the affected child table.
+- Recalculate row `Total` values using chronological order, even though the table is displayed newest first.
+- Keep each child's `Current points` aligned with the first row in that child's table.
 - Keep the `Family Members` table aligned with each child's current points.
 - Keep `Total family child credits` equal to the sum of all children.
 - Preserve the existing markdown structure and names.
@@ -37,4 +40,4 @@ Use it when the user describes point records in natural language and wants `READ
 ## Raw Record Log
 
 Save raw user descriptions for ledger changes in `data/raw-records.md` before turning them into structured records.
-Each raw log row should include the date and keep the user's text close to verbatim.
+Each raw log row should include the date, keep the user's text close to verbatim, and place the newest row first.

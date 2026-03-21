@@ -11,21 +11,22 @@ description: Add or correct family credit ledger entries in this repository's RE
 2. Read `README.md` before making any change.
 3. Treat `README.md` as the ledger source of truth for the current records and totals.
 4. Use `.codex/REPO_MEMORY.md` as supporting repo context, not as a replacement for the ledger.
-5. Append the user's raw record description to `data/raw-records.md` before converting it into structured ledger rows. If the file is missing, create it.
+5. Insert the user's raw record description into `data/raw-records.md` before converting it into structured ledger rows. If the file is missing, create it.
 6. Save the raw description as close to verbatim as possible. Do not normalize away details that may matter later.
-7. Include the effective record date at the start of the raw description text for each appended row.
-8. Discover the current ledger structure from the file itself, not memory alone.
-9. Parse the user's description into one or more point events.
-10. Infer every field needed for each row.
-11. Update the affected child tables.
-12. Recalculate all dependent totals.
-13. Read `README.md` again after editing to verify consistency.
+7. Include the effective record date at the start of the raw description text for each inserted row.
+8. Place the newest raw row first, directly under the markdown table header.
+9. Discover the current ledger structure from the file itself, not memory alone.
+10. Parse the user's description into one or more point events.
+11. Infer every field needed for each row.
+12. Insert new ledger rows at the top of the affected child tables so the newest records appear first.
+13. Recalculate all dependent totals.
+14. Read `README.md` again after editing to verify consistency.
 
 ## Raw Record Log
 
 Use `data/raw-records.md` as the raw event log.
 
-For each user request that changes the ledger, append a markdown table row that includes:
+For each user request that changes the ledger, insert a markdown table row that includes:
 
 - `Logged Date`: the date the request is being processed
 - `Effective Date`: the event date used for the ledger rows
@@ -33,7 +34,8 @@ For each user request that changes the ledger, append a markdown table row that 
 
 Prefix the `Raw Description` cell with the effective date in brackets, for example `[2026-03-21] ...`.
 
-Keep the raw log in append-only order unless the user explicitly asks to edit or delete old raw entries.
+Show the newest raw record first by inserting each new row immediately below the table header.
+Edit or delete old raw entries only if the user explicitly asks.
 
 ## Required Data For Each Record
 
@@ -43,7 +45,7 @@ Every credit record row in this repo needs these fields:
 - `Category`: a short label such as `Initial Record`, `Spending`, `Learning`, `Sports`, `Dinner`, `Reward`, or `Penalty`
 - `Record`: a short human-readable description of what happened
 - `Points`: a signed integer, positive for earning and negative for spending or deductions
-- `Total`: the running point total for that child after applying that row
+- `Total`: the child's balance immediately after that record happened
 
 Every row also belongs to one child section. Identify the child by matching the name the user gives against the `Family Members` table and section headings in `README.md`.
 
@@ -63,8 +65,8 @@ Every row also belongs to one child section. Identify the child by matching the 
 
 After adding, deleting, or correcting any record:
 
-- Recompute the `Total` column from top to bottom inside each affected child table.
-- Set `Current points` under each child heading to the last running total in that table.
+- Recompute each row's `Total` using chronological order, even though the table is displayed newest first.
+- Set `Current points` under each child heading to the first row's total in that child's table.
 - Set the `Current Points` value in the `Family Members` table to the same per-child total.
 - Set `Total family child credits` in `Current Summary` to the sum of all child totals.
 - Set `Last updated` to the most recent affected date.
@@ -74,6 +76,7 @@ After adding, deleting, or correcting any record:
 
 - Preserve the existing markdown layout and section order in `README.md`.
 - Keep child names and English names exactly as already written in the file.
+- Keep each child ledger table sorted with the newest record first.
 - Prefer editing only the rows and totals affected by the user's request.
 - If rows were deleted manually, trust the remaining rows in the file and recalculate from them.
 
@@ -81,9 +84,9 @@ After adding, deleting, or correcting any record:
 
 Before finishing:
 
-- Verify every row's `Total` matches the previous total plus that row's `Points`.
-- Verify each child's displayed current points matches the last row in that child's table.
+- Verify the first row in each child table matches that child's current points.
 - Verify the family summary equals the sum of all children.
+- Verify every row's `Total` is correct when the table is read back into chronological order.
 - Verify the markdown table formatting is still readable.
 - Verify `.codex/REPO_MEMORY.md`, if present, is still aligned with the latest ledger totals and repo rules.
-- Verify `data/raw-records.md` contains the raw description for the change request you just processed.
+- Verify `data/raw-records.md` contains the raw description for the change request you just processed, with the newest row first.
