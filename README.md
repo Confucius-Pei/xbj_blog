@@ -6,22 +6,24 @@ This repository is a markdown record for tracking the family credits of two boys
 
 | Child | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 6 |
-| Debao | Dave | 0 |
+| Xinbao | Fred | 11 |
+| Debao | Dave | -4 |
 
 ## Current Summary
 
-- Total family child credits: `6`
-- Last updated: `2026-03-21`
+- Total family child credits: `7`
+- Last updated: `2026-03-22`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `6`
+Current points: `11`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-22 | Spending | Bought 冰淇淋 | -10 | 11 |
+| 2026-03-22 | Sports | Bounced basketball 300 times | +15 | 21 |
 | 2026-03-21 | Dinner | Ate dinner well | +1 | 6 |
 | 2026-03-21 | Sports | Learned swimming | +1 | 5 |
 | 2026-03-21 | Learning | Learned writing | +1 | 4 |
@@ -31,10 +33,12 @@ Current points: `6`
 
 ### Debao (Dave)
 
-Current points: `0`
+Current points: `-4`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-22 | Spending | Bought 冰淇淋 | -5 | -4 |
+| 2026-03-22 | Sports | Bounced basketball 10 times | +1 | 1 |
 | 2026-03-21 | Dinner | Ate dinner well | +1 | 0 |
 | 2026-03-21 | Learning | Learned drawing | +1 | -1 |
 | 2026-03-21 | Spending | Bought 薯条 | -2 | -2 |
