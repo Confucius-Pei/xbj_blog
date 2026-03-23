@@ -18,9 +18,9 @@ Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks f
 
 ## Current Family Data
 
-- Xinbao (`Fred`): `11` points
+- Xinbao (`Fred`): `13` points
 - Debao (`Dave`): `-4` points
-- Total family child credits: `7`
+- Total family child credits: `9`
 - Last updated in ledger: `2026-03-22`
 
 ## Update Rules

@@ -6,22 +6,24 @@ This repository is a markdown record for tracking the family credits of two boys
 
 | Child | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 11 |
+| Xinbao | Fred | 13 |
 | Debao | Dave | -4 |
 
 ## Current Summary
 
-- Total family child credits: `7`
+- Total family child credits: `9`
 - Last updated: `2026-03-22`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `11`
+Current points: `13`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-22 | Learning | Learned English | +1 | 13 |
+| 2026-03-22 | Sports | Went swimming | +1 | 12 |
 | 2026-03-22 | Spending | Bought 冰淇淋 | -10 | 11 |
 | 2026-03-22 | Sports | Bounced basketball 300 times | +15 | 21 |
 | 2026-03-21 | Dinner | Ate dinner well | +1 | 6 |
