@@ -2,34 +2,35 @@
 
 ## Purpose
 
-This repository is a markdown-only family child credit ledger.
+This repository is a markdown-only family credit ledger.
 The source of truth is `README.md`.
 Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks for it.
 
 ## Ledger Format
 
 `README.md` contains:
-- `Family Members` table with each child's current points
-- `Current Summary` with total family child credits and last updated date
-- one `Credit Records` section per child
-- each child table uses columns: `Date`, `Category`, `Record`, `Points`, `Total`
-- each child table shows the newest record first
-- `Total` means the child's balance immediately after that record happened
+- `Family Members` table with each member's current points
+- `Current Summary` with total family credits and last updated date
+- one `Credit Records` section per member
+- each member table uses columns: `Date`, `Category`, `Record`, `Points`, `Total`
+- each member table shows the newest record first
+- `Total` means the member's balance immediately after that record happened
 
 ## Current Family Data
 
-- Xinbao (`Fred`): `13` points
-- Debao (`Dave`): `-4` points
-- Total family child credits: `9`
-- Last updated in ledger: `2026-03-22`
+- Xinbao (`Fred`): `16` points
+- Debao (`Dave`): `-1` points
+- Mama (`Mom`): `1` point
+- Total family credits: `16`
+- Last updated in ledger: `2026-03-24`
 
 ## Update Rules
 
-- Insert new ledger rows at the top of the affected child table.
+- Insert new ledger rows at the top of the affected member table.
 - Recalculate row `Total` values using chronological order, even though the table is displayed newest first.
-- Keep each child's `Current points` aligned with the first row in that child's table.
-- Keep the `Family Members` table aligned with each child's current points.
-- Keep `Total family child credits` equal to the sum of all children.
+- Keep each member's `Current points` aligned with the first row in that member's table.
+- Keep the `Family Members` table aligned with each member's current points.
+- Keep `Total family credits` equal to the sum of all members.
 - Preserve the existing markdown structure and names.
 
 ## Repo Skill
