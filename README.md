@@ -8,11 +8,11 @@ This repository is a markdown record for tracking the family credits of members 
 | --- | --- | ---: |
 | Xinbao | Fred | 17 |
 | Debao | Dave | 0 |
-| Mama | Mom | 4 |
+| Mama | Mom | 5 |
 
 ## Current Summary
 
-- Total family credits: `21`
+- Total family credits: `22`
 - Last updated: `2026-03-25`
 
 ## Credit Records
@@ -58,10 +58,11 @@ Current points: `0`
 
 ### Mama (Mom)
 
-Current points: `4`
+Current points: `5`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-25 | Sports | Climbed stairs for 15 minutes | +1 | 5 |
 | 2026-03-25 | Sports | Exercised 15 minutes in the morning | +1 | 4 |
 | 2026-03-24 | Routine | Slept before midnight | +1 | 3 |
 | 2026-03-24 | Sports | Exercised 15 minutes at night | +1 | 2 |
