@@ -21,7 +21,8 @@ Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks f
 - Xinbao (`Fred`): `17` points
 - Debao (`Dave`): `0` points
 - Mama (`Mom`): `5` points
-- Total family credits: `22`
+- Baba (`Dad`): `1` points
+- Total family credits: `23`
 - Last updated in ledger: `2026-03-25`
 
 ## Update Rules
