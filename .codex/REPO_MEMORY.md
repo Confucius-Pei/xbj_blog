@@ -18,11 +18,11 @@ Do not create an app, HTML, CSS, or JavaScript unless the user explicitly asks f
 
 ## Current Family Data
 
-- Xinbao (`Fred`): `16` points
-- Debao (`Dave`): `-1` points
-- Mama (`Mom`): `1` point
-- Total family credits: `16`
-- Last updated in ledger: `2026-03-24`
+- Xinbao (`Fred`): `17` points
+- Debao (`Dave`): `0` points
+- Mama (`Mom`): `4` points
+- Total family credits: `21`
+- Last updated in ledger: `2026-03-25`
 
 ## Update Rules
 

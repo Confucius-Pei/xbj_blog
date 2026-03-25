@@ -6,23 +6,24 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 16 |
-| Debao | Dave | -1 |
-| Mama | Mom | 1 |
+| Xinbao | Fred | 17 |
+| Debao | Dave | 0 |
+| Mama | Mom | 4 |
 
 ## Current Summary
 
-- Total family credits: `16`
-- Last updated: `2026-03-24`
+- Total family credits: `21`
+- Last updated: `2026-03-25`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `16`
+Current points: `17`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-24 | Sports | Went swimming | +1 | 17 |
 | 2026-03-23 | Learning | Read 4 English books | +1 | 16 |
 | 2026-03-23 | Chores | Folded clothes with Mom | +1 | 15 |
 | 2026-03-23 | Routine | Washed up and brushed teeth on time | +1 | 14 |
@@ -39,10 +40,11 @@ Current points: `16`
 
 ### Debao (Dave)
 
-Current points: `-1`
+Current points: `0`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-24 | Routine | Took a bath by himself | +1 | 0 |
 | 2026-03-23 | Learning | Read 4 English books | +1 | -1 |
 | 2026-03-23 | Chores | Folded clothes with Mom | +1 | -2 |
 | 2026-03-23 | Routine | Washed up and brushed teeth on time | +1 | -3 |
@@ -56,10 +58,13 @@ Current points: `-1`
 
 ### Mama (Mom)
 
-Current points: `1`
+Current points: `4`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-25 | Sports | Exercised 15 minutes in the morning | +1 | 4 |
+| 2026-03-24 | Routine | Slept before midnight | +1 | 3 |
+| 2026-03-24 | Sports | Exercised 15 minutes at night | +1 | 2 |
 | 2026-03-24 | Sports | Morning exercise check-in | +1 | 1 |
 
 ## Notes
