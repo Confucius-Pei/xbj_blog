@@ -1,39 +1,39 @@
-Date,Member,English Name,Category,Record,Points,Total
-2026-03-26,mama,Mom,Sports,Climbed stairs at noon,1,8
-2026-03-26,mama,Mom,Sports,Exercised in the morning,1,7
-2026-03-26,xinbao,Fred,Learning,English class,1,18
-2026-03-25,mama,Mom,Play,Played parkour game with Debao,1,6
-2026-03-25,mama,Mom,Sports,Climbed stairs for 15 minutes,1,5
-2026-03-25,mama,Mom,Sports,Exercised 15 minutes in the morning,1,4
-2026-03-25,debao,Dave,Routine,Took a bath by himself,1,2
-2026-03-25,debao,Dave,Routine,Brushed teeth,1,1
-2026-03-25,baba,Dad,Routine,Sleep early,1,1
-2026-03-25,mama,Mom,Sports,Climbed stairs for 15 minutes,1,3
-2026-03-25,xinbao,Fred,Sports,Went swimming,1,17
-2026-03-25,debao,Dave,Routine,Took a bath by himself,1,0
-2026-03-25,mama,Mom,Routine,Sleep before midnight,1,2
-2026-03-24,mama,Mom,Sports,Exercised 15 minutes at night,1,1
-2026-03-24,mama,Mom,Sports,Morning exercise check-in,1,0
-2026-03-24,xinbao,Fred,Learning,Read 4 English books,1,16
-2026-03-24,debao,Dave,Learning,Read 4 English books,1,-1
-2026-03-24,xinbao,Fred,Chores,Folded clothes with Mom,1,15
-2026-03-24,debao,Dave,Chores,Folded clothes with Mom,1,-2
-2026-03-24,xinbao,Fred,Routine,Washed up and brushed teeth on time,1,14
-2026-03-24,debao,Dave,Routine,Washed up and brushed teeth on time,1,-3
-2026-03-23,xinbao,Fred,Learning,Learned English,1,13
-2026-03-23,xinbao,Fred,Sports,Went swimming,1,12
-2026-03-23,debao,Dave,Spending,Bought 冰淇淋,-5,-4
-2026-03-23,xinbao,Fred,Spending,Bought 冰淇淋,-10,11
-2026-03-23,debao,Dave,Sports,Bounced basketball 10 times,1,1
-2026-03-23,xinbao,Fred,Sports,Bounced basketball 300 times,15,21
-2026-03-22,xinbao,Fred,Dinner,Ate dinner well,1,6
-2026-03-22,debao,Dave,Dinner,Ate dinner well,1,0
-2026-03-22,xinbao,Fred,Sports,Learned swimming,1,5
-2026-03-22,xinbao,Fred,Learning,Learned writing,1,4
-2026-03-22,debao,Dave,Learning,Learned drawing,1,-1
-2026-03-22,xinbao,Fred,Spending,Bought 薯条,-2,3
-2026-03-22,debao,Dave,Spending,Bought 薯条,-2,-2
-2026-03-22,xinbao,Fred,Spending,Bought 蜜雪冰城,-9,5
-2026-03-22,debao,Dave,Spending,Bought 蜜雪冰城,-9,0
-2026-03-21,xinbao,Fred,Initial Record,Initial recorded balance,14,14
-2026-03-21,debao,Dave,Initial Record,Initial recorded balance,9,9
+日期,成员,英文名,类别,记录,积分,累计
+2026-03-26,妈妈,Mom,运动,Climbed stairs at noon,1,8
+2026-03-26,妈妈,Mom,运动,Exercised in the morning,1,7
+2026-03-26,欣宝,Fred,学习,English class,1,18
+2026-03-25,妈妈,Mom,玩耍,Played parkour game with Debao,1,6
+2026-03-25,妈妈,Mom,运动,Climbed stairs for 15 minutes,1,5
+2026-03-25,妈妈,Mom,运动,Exercised 15 minutes in the morning,1,4
+2026-03-25,得宝,Dave,日常,Took a bath by himself,1,2
+2026-03-25,得宝,Dave,日常,Brushed teeth,1,1
+2026-03-25,爸爸,Dad,日常,Sleep early,1,1
+2026-03-25,妈妈,Mom,运动,Climbed stairs for 15 minutes,1,3
+2026-03-25,欣宝,Fred,运动,Went swimming,1,17
+2026-03-25,得宝,Dave,日常,Took a bath by himself,1,0
+2026-03-25,妈妈,Mom,日常,Sleep before midnight,1,2
+2026-03-24,妈妈,Mom,运动,Exercised 15 minutes at night,1,1
+2026-03-24,妈妈,Mom,运动,Morning exercise check-in,1,0
+2026-03-24,欣宝,Fred,学习,Read 4 English books,1,16
+2026-03-24,得宝,Dave,学习,Read 4 English books,1,-1
+2026-03-24,欣宝,Fred,家务,Folded clothes with Mom,1,15
+2026-03-24,得宝,Dave,家务,Folded clothes with Mom,1,-2
+2026-03-24,欣宝,Fred,日常,Washed up and brushed teeth on time,1,14
+2026-03-24,得宝,Dave,日常,Washed up and brushed teeth on time,1,-3
+2026-03-23,欣宝,Fred,学习,Learned English,1,13
+2026-03-23,欣宝,Fred,运动,Went swimming,1,12
+2026-03-23,得宝,Dave,消费,Bought 冰淇淋,-5,-4
+2026-03-23,欣宝,Fred,消费,Bought 冰淇淋,-10,11
+2026-03-23,得宝,Dave,运动,Bounced basketball 10 times,1,1
+2026-03-23,欣宝,Fred,运动,Bounced basketball 300 times,15,21
+2026-03-22,欣宝,Fred,用餐,Ate dinner well,1,6
+2026-03-22,得宝,Dave,用餐,Ate dinner well,1,0
+2026-03-22,欣宝,Fred,运动,Learned swimming,1,5
+2026-03-22,欣宝,Fred,学习,Learned writing,1,4
+2026-03-22,得宝,Dave,学习,Learned drawing,1,-1
+2026-03-22,欣宝,Fred,消费,Bought 薯条,-2,3
+2026-03-22,得宝,Dave,消费,Bought 薯条,-2,-2
+2026-03-22,欣宝,Fred,消费,Bought 蜜雪冰城,-9,5
+2026-03-22,得宝,Dave,消费,Bought 蜜雪冰城,-9,0
+2026-03-21,欣宝,Fred,初始记录,Initial recorded balance,14,14
+2026-03-21,得宝,Dave,初始记录,Initial recorded balance,9,9
