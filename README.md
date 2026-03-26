@@ -13,7 +13,7 @@ This repository is a markdown record for tracking the family credits of members 
 
 ## Current Summary
 
-- Total family credits: `27`
+- Total family credits: `28`
 - Last updated: `2026-03-26`
 
 ## Credit Records
@@ -24,7 +24,7 @@ Current points: `18`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
-| 2026-03-26 | Learning | English class | +1 | 18 |
+| 2026-03-25 | Learning | English class | +1 | 18 |
 | 2026-03-24 | Sports | Went swimming | +1 | 17 |
 | 2026-03-23 | Learning | Read 4 English books | +1 | 16 |
 | 2026-03-23 | Chores | Folded clothes with Mom | +1 | 15 |
@@ -46,8 +46,8 @@ Current points: `2`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
-| 2026-03-26 | Routine | Took a bath by himself | +1 | 2 |
-| 2026-03-26 | Routine | Brushed teeth | +1 | 1 |
+| 2026-03-25 | Routine | Took a bath by himself | +1 | 2 |
+| 2026-03-25 | Routine | Brushed teeth | +1 | 1 |
 | 2026-03-24 | Routine | Took a bath by himself | +1 | 0 |
 | 2026-03-23 | Learning | Read 4 English books | +1 | -1 |
 | 2026-03-23 | Chores | Folded clothes with Mom | +1 | -2 |
@@ -67,7 +67,7 @@ Current points: `7`
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
 | 2026-03-26 | Sports | Exercised in the morning | +1 | 7 |
-| 2026-03-26 | Play | Played parkour game with Debao | +1 | 6 |
+| 2026-03-25 | Play | Played parkour game with Debao | +1 | 6 |
 | 2026-03-25 | Sports | Climbed stairs for 15 minutes | +1 | 5 |
 | 2026-03-25 | Sports | Exercised 15 minutes in the morning | +1 | 4 |
 | 2026-03-24 | Routine | Slept before midnight | +1 | 3 |
