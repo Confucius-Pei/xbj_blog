@@ -26,6 +26,21 @@ description: Add or correct family credit ledger entries in this repository's RE
 
 Use `data/raw-records.md` as the raw event log.
 
+## Data Files
+
+This repo has multiple data files that must be kept in sync:
+
+1. **README.md** - The human-readable ledger (source of truth for display)
+2. **data/records.json** - JSON format with all records and member points
+3. **data/records_last7days.csv** - CSV export of recent records (all records, sorted by date desc)
+4. **data/raw-records.md** - Raw user input log
+
+All files must be updated together when adding, deleting, or correcting records:
+- Update `data/records.json` with structured records and current member points
+- Update `data/records_last7days.csv` to reflect the same data as JSON
+- Update `README.md` with human-readable format
+- Update `data/raw-records.md` with raw user input
+
 For each user request that changes the ledger, insert a markdown table row that includes:
 
 - `Logged Date`: the date the request is being processed
@@ -70,6 +85,8 @@ After adding, deleting, or correcting any record:
 - Set the `Current Points` value in the `Family Members` table to the same per-child total.
 - Set `Total family child credits` in `Current Summary` to the sum of all child totals.
 - Set `Last updated` to the most recent affected date.
+- **Update data/records.json**: Update `members.{key}.currentPoints` for each affected member, add new records to the `records` array (newest first), and update `lastUpdated` to today's date.
+- **Update data/records_last7days.csv**: Regenerate the CSV to match the JSON records, using columns: `日期,成员,英文名,类别,记录,积分,累计` (Date,Member,EnglishName,Category,Record,Points,Total). Newest records first.
 - If `.codex/REPO_MEMORY.md` contains current family data that becomes stale after the edit, update it to match the new ledger state.
 
 ## Editing Rules
@@ -88,5 +105,7 @@ Before finishing:
 - Verify the family summary equals the sum of all children.
 - Verify every row's `Total` is correct when the table is read back into chronological order.
 - Verify the markdown table formatting is still readable.
+- **Verify data/records.json**: Check `members.{key}.currentPoints` match README, `lastUpdated` is today's date, and new records are in the array.
+- **Verify data/records_last7days.csv**: Check that CSV records match JSON records and are sorted by date descending.
 - Verify `.codex/REPO_MEMORY.md`, if present, is still aligned with the latest ledger totals and repo rules.
 - Verify `data/raw-records.md` contains the raw description for the change request you just processed, with the newest row first.
