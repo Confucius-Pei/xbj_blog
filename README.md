@@ -6,24 +6,28 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 18 |
-| Debao | Dave | 2 |
-| Mama | Mom | 8 |
+| Xinbao | Fred | 22 |
+| Mama | Mom | 11 |
+| Debao | Dave | 4 |
 | Baba | Dad | 1 |
 
 ## Current Summary
 
-- Total family credits: `29`
-- Last updated: `2026-03-26`
+- Total family credits: `38`
+- Last updated: `2026-03-27`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `18`
+Current points: `22`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-26 | Sports | Went swimming (participated PK) | +1 | 22 |
+| 2026-03-26 | Sports | Free style swimming 1:06 | +1 | 21 |
+| 2026-03-26 | Learning | Learned Chinese characters | +1 | 20 |
+| 2026-03-26 | Sports | Went swimming | +1 | 19 |
 | 2026-03-25 | Learning | English class | +1 | 18 |
 | 2026-03-24 | Sports | Went swimming | +1 | 17 |
 | 2026-03-23 | Learning | Read 4 English books | +1 | 16 |
@@ -42,10 +46,12 @@ Current points: `18`
 
 ### Debao (Dave)
 
-Current points: `2`
+Current points: `4`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-26 | Learning | Learned Chinese characters | +1 | 4 |
+| 2026-03-26 | Routine | Took a bath and brushed teeth by himself | +1 | 3 |
 | 2026-03-25 | Routine | Took a bath by himself | +1 | 2 |
 | 2026-03-25 | Routine | Brushed teeth | +1 | 1 |
 | 2026-03-24 | Routine | Took a bath by himself | +1 | 0 |
@@ -62,10 +68,13 @@ Current points: `2`
 
 ### Mama (Mom)
 
-Current points: `8`
+Current points: `11`
 
 | Date | Category | Record | Points | Total |
-| --- | --- | --- | --- | ---: |
+| --- | --- | --- | ---: | ---: |
+| 2026-03-27 | Sports | Morning exercise check-in | +1 | 11 |
+| 2026-03-26 | Routine | Slept early | +1 | 10 |
+| 2026-03-26 | Sports | Evening exercise | +1 | 9 |
 | 2026-03-26 | Sports | Climbed stairs at noon | +1 | 8 |
 | 2026-03-26 | Sports | Exercised in the morning | +1 | 7 |
 | 2026-03-25 | Play | Played parkour game with Debao | +1 | 6 |
