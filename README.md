@@ -6,24 +6,25 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 10 |
+| Xinbao | Fred | 11 |
 | Mama | Mom | 14 |
 | Debao | Dave | -3 |
 | Baba | Dad | 1 |
 
 ## Current Summary
 
-- Total family credits: `22`
+- Total family credits: `23`
 - Last updated: `2026-03-28`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `10`
+Current points: `11`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-28 | Sports | Went swimming | +1 | 11 |
 | 2026-03-28 | Spending | Bought items | -8 | 10 |
 | 2026-03-28 | Spending | Bought 冰淇淋 | -5 | 18 |
 | 2026-03-28 | Learning | Writing class | +1 | 23 |

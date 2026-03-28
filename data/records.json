@@ -3,7 +3,7 @@
     "xinbao": {
       "name": "Xinbao",
       "englishName": "Fred",
-      "currentPoints": 10
+      "currentPoints": 11
     },
     "debao": {
       "name": "Debao",
@@ -22,6 +22,14 @@
     }
   },
   "records": [
+    {
+      "date": "2026-03-28",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming",
+      "points": 1,
+      "total": 11
+    },
     {
       "date": "2026-03-28",
       "member": "mama",
