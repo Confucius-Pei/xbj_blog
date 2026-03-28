@@ -6,24 +6,27 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 22 |
-| Mama | Mom | 11 |
-| Debao | Dave | 4 |
+| Xinbao | Fred | 10 |
+| Mama | Mom | 14 |
+| Debao | Dave | -3 |
 | Baba | Dad | 1 |
 
 ## Current Summary
 
-- Total family credits: `38`
-- Last updated: `2026-03-27`
+- Total family credits: `22`
+- Last updated: `2026-03-28`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `22`
+Current points: `10`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-28 | Spending | Bought items | -8 | 10 |
+| 2026-03-28 | Spending | Bought 冰淇淋 | -5 | 18 |
+| 2026-03-28 | Learning | Writing class | +1 | 23 |
 | 2026-03-26 | Sports | Went swimming (participated PK) | +1 | 22 |
 | 2026-03-26 | Sports | Free style swimming 1:06 | +1 | 21 |
 | 2026-03-26 | Learning | Learned Chinese characters | +1 | 20 |
@@ -46,10 +49,13 @@ Current points: `22`
 
 ### Debao (Dave)
 
-Current points: `4`
+Current points: `-3`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-28 | Spending | Bought items | -3 | -3 |
+| 2026-03-28 | Spending | Bought 冰淇淋 | -5 | 0 |
+| 2026-03-28 | Learning | Drawing class | +1 | 5 |
 | 2026-03-26 | Learning | Learned Chinese characters | +1 | 4 |
 | 2026-03-26 | Routine | Took a bath and brushed teeth by himself | +1 | 3 |
 | 2026-03-25 | Routine | Took a bath by himself | +1 | 2 |
@@ -68,10 +74,13 @@ Current points: `4`
 
 ### Mama (Mom)
 
-Current points: `11`
+Current points: `14`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-28 | Play | Played parkour game with Debao | +1 | 14 |
+| 2026-03-28 | Sports | Morning exercise check-in | +1 | 13 |
+| 2026-03-27 | Routine | Slept early | +1 | 12 |
 | 2026-03-27 | Sports | Morning exercise check-in | +1 | 11 |
 | 2026-03-26 | Routine | Slept early | +1 | 10 |
 | 2026-03-26 | Sports | Evening exercise | +1 | 9 |
