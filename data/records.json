@@ -3,17 +3,17 @@
     "xinbao": {
       "name": "Xinbao",
       "englishName": "Fred",
-      "currentPoints": 11
+      "currentPoints": 2
     },
     "debao": {
       "name": "Debao",
       "englishName": "Dave",
-      "currentPoints": -3
+      "currentPoints": -13
     },
     "mama": {
       "name": "Mama",
       "englishName": "Mom",
-      "currentPoints": 14
+      "currentPoints": 16
     },
     "baba": {
       "name": "Baba",
@@ -22,6 +22,46 @@
     }
   },
   "records": [
+    {
+      "date": "2026-03-29",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming",
+      "points": 1,
+      "total": 2
+    },
+    {
+      "date": "2026-03-29",
+      "member": "xinbao",
+      "category": "Spending",
+      "record": "Bought 多肉绿植",
+      "points": -10,
+      "total": 1
+    },
+    {
+      "date": "2026-03-29",
+      "member": "debao",
+      "category": "Spending",
+      "record": "Bought 多肉绿植",
+      "points": -10,
+      "total": -13
+    },
+    {
+      "date": "2026-03-29",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Morning exercise check-in",
+      "points": 1,
+      "total": 16
+    },
+    {
+      "date": "2026-03-28",
+      "member": "mama",
+      "category": "Routine",
+      "record": "Slept early",
+      "points": 1,
+      "total": 15
+    },
     {
       "date": "2026-03-28",
       "member": "xinbao",
@@ -471,5 +511,5 @@
       "total": 9
     }
   ],
-  "lastUpdated": "2026-03-28"
+  "lastUpdated": "2026-03-29"
 }

@@ -6,24 +6,26 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 11 |
-| Mama | Mom | 14 |
-| Debao | Dave | -3 |
+| Xinbao | Fred | 2 |
+| Mama | Mom | 16 |
+| Debao | Dave | -13 |
 | Baba | Dad | 1 |
 
 ## Current Summary
 
-- Total family credits: `23`
-- Last updated: `2026-03-28`
+- Total family credits: `6`
+- Last updated: `2026-03-29`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `11`
+Current points: `2` 
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-29 | Sports | Went swimming | +1 | 2 |
+| 2026-03-29 | Spending | Bought 多肉绿植 | -10 | 1 |
 | 2026-03-28 | Sports | Went swimming | +1 | 11 |
 | 2026-03-28 | Spending | Bought items | -8 | 10 |
 | 2026-03-28 | Spending | Bought 冰淇淋 | -5 | 18 |
@@ -50,10 +52,11 @@ Current points: `11`
 
 ### Debao (Dave)
 
-Current points: `-3`
+Current points: `-13` 
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-29 | Spending | Bought 多肉绿植 | -10 | -13 |
 | 2026-03-28 | Spending | Bought items | -3 | -3 |
 | 2026-03-28 | Spending | Bought 冰淇淋 | -5 | 0 |
 | 2026-03-28 | Learning | Drawing class | +1 | 5 |
@@ -75,10 +78,12 @@ Current points: `-3`
 
 ### Mama (Mom)
 
-Current points: `14`
+Current points: `16` 
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | ---: | ---: |
+| 2026-03-29 | Sports | Morning exercise check-in | +1 | 16 |
+| 2026-03-28 | Routine | Slept early | +1 | 15 |
 | 2026-03-28 | Play | Played parkour game with Debao | +1 | 14 |
 | 2026-03-28 | Sports | Morning exercise check-in | +1 | 13 |
 | 2026-03-27 | Routine | Slept early | +1 | 12 |
