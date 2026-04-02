@@ -1,56 +1,451 @@
 {
   "members": {
-    "xinbao": { "name": "Xinbao", "englishName": "Fred", "currentPoints": 22 },
-    "debao": { "name": "Debao", "englishName": "Dave", "currentPoints": 4 },
-    "mama": { "name": "Mama", "englishName": "Mom", "currentPoints": 11 },
-    "baba": { "name": "Baba", "englishName": "Dad", "currentPoints": 1 }
+    "xinbao": {
+      "name": "Xinbao",
+      "englishName": "Fred",
+      "currentPoints": 15
+    },
+    "debao": {
+      "name": "Debao",
+      "englishName": "Dave",
+      "currentPoints": 0
+    },
+    "mama": {
+      "name": "Mama",
+      "englishName": "Mom",
+      "currentPoints": 31
+    },
+    "baba": {
+      "name": "Baba",
+      "englishName": "Dad",
+      "currentPoints": 7
+    }
   },
   "records": [
-    { "date": "2026-03-27", "member": "mama", "category": "Sports", "record": "Morning exercise check-in", "points": 1, "total": 11 },
-    { "date": "2026-03-26", "member": "mama", "category": "Routine", "record": "Sleep early", "points": 1, "total": 10 },
-    { "date": "2026-03-26", "member": "mama", "category": "Sports", "record": "Evening exercise", "points": 1, "total": 9 },
-    { "date": "2026-03-26", "member": "mama", "category": "Sports", "record": "Climbed stairs at noon", "points": 1, "total": 8 },
-    { "date": "2026-03-26", "member": "mama", "category": "Sports", "record": "Exercised in the morning", "points": 1, "total": 7 },
-    { "date": "2026-03-26", "member": "debao", "category": "Learning", "record": "Learned Chinese characters", "points": 1, "total": 4 },
-    { "date": "2026-03-26", "member": "debao", "category": "Routine", "record": "Took a bath and brushed teeth by himself", "points": 1, "total": 3 },
-    { "date": "2026-03-26", "member": "xinbao", "category": "Sports", "record": "Went swimming (participated PK)", "points": 1, "total": 22 },
-    { "date": "2026-03-26", "member": "xinbao", "category": "Sports", "record": "Free style swimming 1:06", "points": 1, "total": 21 },
-    { "date": "2026-03-26", "member": "xinbao", "category": "Learning", "record": "Learned Chinese characters", "points": 1, "total": 20 },
-    { "date": "2026-03-26", "member": "xinbao", "category": "Sports", "record": "Went swimming", "points": 1, "total": 19 },
-    { "date": "2026-03-25", "member": "mama", "category": "Play", "record": "Played parkour game with Debao", "points": 1, "total": 6 },
-    { "date": "2026-03-25", "member": "mama", "category": "Sports", "record": "Climbed stairs for 15 minutes", "points": 1, "total": 5 },
-    { "date": "2026-03-25", "member": "mama", "category": "Sports", "record": "Exercised 15 minutes in the morning", "points": 1, "total": 4 },
-    { "date": "2026-03-25", "member": "debao", "category": "Routine", "record": "Took a bath by himself", "points": 1, "total": 2 },
-    { "date": "2026-03-25", "member": "debao", "category": "Routine", "record": "Brushed teeth", "points": 1, "total": 1 },
-    { "date": "2026-03-25", "member": "baba", "category": "Routine", "record": "Sleep early", "points": 1, "total": 1 },
-    { "date": "2026-03-25", "member": "xinbao", "category": "Learning", "record": "English class", "points": 1, "total": 18 },
-    { "date": "2026-03-25", "member": "xinbao", "category": "Sports", "record": "Went swimming", "points": 1, "total": 17 },
-    { "date": "2026-03-24", "member": "mama", "category": "Routine", "record": "Sleep before midnight", "points": 1, "total": 3 },
-    { "date": "2026-03-24", "member": "mama", "category": "Sports", "record": "Exercised 15 minutes at night", "points": 1, "total": 2 },
-    { "date": "2026-03-24", "member": "mama", "category": "Sports", "record": "Morning exercise check-in", "points": 1, "total": 1 },
-    { "date": "2026-03-24", "member": "xinbao", "category": "Learning", "record": "Read 4 English books", "points": 1, "total": 16 },
-    { "date": "2026-03-24", "member": "debao", "category": "Learning", "record": "Read 4 English books", "points": 1, "total": -1 },
-    { "date": "2026-03-24", "member": "xinbao", "category": "Chores", "record": "Folded clothes with Mom", "points": 1, "total": 15 },
-    { "date": "2026-03-24", "member": "debao", "category": "Chores", "record": "Folded clothes with Mom", "points": 1, "total": -2 },
-    { "date": "2026-03-24", "member": "xinbao", "category": "Routine", "record": "Washed up and brushed teeth on time", "points": 1, "total": 14 },
-    { "date": "2026-03-24", "member": "debao", "category": "Routine", "record": "Washed up and brushed teeth on time", "points": 1, "total": -3 },
-    { "date": "2026-03-23", "member": "xinbao", "category": "Learning", "record": "Learned English", "points": 1, "total": 13 },
-    { "date": "2026-03-23", "member": "xinbao", "category": "Sports", "record": "Went swimming", "points": 1, "total": 12 },
-    { "date": "2026-03-23", "member": "debao", "category": "Spending", "record": "Bought 冰淇淋", "points": -5, "total": -4 },
-    { "date": "2026-03-23", "member": "xinbao", "category": "Spending", "record": "Bought 冰淇淋", "points": -10, "total": 11 },
-    { "date": "2026-03-23", "member": "debao", "category": "Sports", "record": "Bounced basketball 10 times", "points": 1, "total": 1 },
-    { "date": "2026-03-23", "member": "xinbao", "category": "Sports", "record": "Bounced basketball 300 times", "points": 15, "total": 21 },
-    { "date": "2026-03-22", "member": "xinbao", "category": "Dinner", "record": "Ate dinner well", "points": 1, "total": 6 },
-    { "date": "2026-03-22", "member": "debao", "category": "Dinner", "record": "Ate dinner well", "points": 1, "total": 0 },
-    { "date": "2026-03-22", "member": "xinbao", "category": "Sports", "record": "Learned swimming", "points": 1, "total": 5 },
-    { "date": "2026-03-22", "member": "xinbao", "category": "Learning", "record": "Learned writing", "points": 1, "total": 4 },
-    { "date": "2026-03-22", "member": "debao", "category": "Learning", "record": "Learned drawing", "points": 1, "total": -1 },
-    { "date": "2026-03-22", "member": "xinbao", "category": "Spending", "record": "Bought 薯条", "points": -2, "total": 3 },
-    { "date": "2026-03-22", "member": "debao", "category": "Spending", "record": "Bought 薯条", "points": -2, "total": -2 },
-    { "date": "2026-03-22", "member": "xinbao", "category": "Spending", "record": "Bought 蜜雪冰城", "points": -9, "total": 5 },
-    { "date": "2026-03-22", "member": "debao", "category": "Spending", "record": "Bought 蜜雪冰城", "points": -9, "total": 0 },
-    { "date": "2026-03-21", "member": "xinbao", "category": "Initial Record", "record": "Initial recorded balance", "points": 14, "total": 14 },
-    { "date": "2026-03-21", "member": "debao", "category": "Initial Record", "record": "Initial recorded balance", "points": 9, "total": 9 }
+    {
+      "date": "2026-04-02",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "学习汉字",
+      "points": 1,
+      "total": 15
+    },
+    {
+      "date": "2026-04-02",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "学习围棋",
+      "points": 1,
+      "total": 14
+    },
+    {
+      "date": "2026-04-02",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "游泳",
+      "points": 1,
+      "total": 13
+    },
+    {
+      "date": "2026-04-02",
+      "member": "debao",
+      "category": "Learning",
+      "record": "学习汉字",
+      "points": 1,
+      "total": 0
+    },
+    {
+      "date": "2026-04-02",
+      "member": "debao",
+      "category": "Learning",
+      "record": "学习围棋",
+      "points": 1,
+      "total": -1
+    },
+    {
+      "date": "2026-04-02",
+      "member": "debao",
+      "category": "Sports",
+      "record": "游泳",
+      "points": 1,
+      "total": -2
+    },
+    {
+      "date": "2026-04-02",
+      "member": "mama",
+      "category": "Sports",
+      "record": "中午爬楼",
+      "points": 1,
+      "total": 31
+    },
+    {
+      "date": "2026-04-02",
+      "member": "mama",
+      "category": "Sports",
+      "record": "中午爬楼",
+      "points": 1,
+      "total": 30
+    },
+    {
+      "date": "2026-03-27",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Morning exercise check-in",
+      "points": 1,
+      "total": 11
+    },
+    {
+      "date": "2026-03-26",
+      "member": "mama",
+      "category": "Routine",
+      "record": "Sleep early",
+      "points": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-03-26",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Evening exercise",
+      "points": 1,
+      "total": 9
+    },
+    {
+      "date": "2026-03-26",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Climbed stairs at noon",
+      "points": 1,
+      "total": 8
+    },
+    {
+      "date": "2026-03-26",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Exercised in the morning",
+      "points": 1,
+      "total": 7
+    },
+    {
+      "date": "2026-03-26",
+      "member": "debao",
+      "category": "Learning",
+      "record": "Learned Chinese characters",
+      "points": 1,
+      "total": 4
+    },
+    {
+      "date": "2026-03-26",
+      "member": "debao",
+      "category": "Routine",
+      "record": "Took a bath and brushed teeth by himself",
+      "points": 1,
+      "total": 3
+    },
+    {
+      "date": "2026-03-26",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming (participated PK)",
+      "points": 1,
+      "total": 22
+    },
+    {
+      "date": "2026-03-26",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Free style swimming 1:06",
+      "points": 1,
+      "total": 21
+    },
+    {
+      "date": "2026-03-26",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "Learned Chinese characters",
+      "points": 1,
+      "total": 20
+    },
+    {
+      "date": "2026-03-26",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming",
+      "points": 1,
+      "total": 19
+    },
+    {
+      "date": "2026-03-25",
+      "member": "mama",
+      "category": "Play",
+      "record": "Played parkour game with Debao",
+      "points": 1,
+      "total": 6
+    },
+    {
+      "date": "2026-03-25",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Climbed stairs for 15 minutes",
+      "points": 1,
+      "total": 5
+    },
+    {
+      "date": "2026-03-25",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Exercised 15 minutes in the morning",
+      "points": 1,
+      "total": 4
+    },
+    {
+      "date": "2026-03-25",
+      "member": "debao",
+      "category": "Routine",
+      "record": "Took a bath by himself",
+      "points": 1,
+      "total": 2
+    },
+    {
+      "date": "2026-03-25",
+      "member": "debao",
+      "category": "Routine",
+      "record": "Brushed teeth",
+      "points": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-03-25",
+      "member": "baba",
+      "category": "Routine",
+      "record": "Sleep early",
+      "points": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-03-25",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "English class",
+      "points": 1,
+      "total": 18
+    },
+    {
+      "date": "2026-03-25",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming",
+      "points": 1,
+      "total": 17
+    },
+    {
+      "date": "2026-03-24",
+      "member": "mama",
+      "category": "Routine",
+      "record": "Sleep before midnight",
+      "points": 1,
+      "total": 3
+    },
+    {
+      "date": "2026-03-24",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Exercised 15 minutes at night",
+      "points": 1,
+      "total": 2
+    },
+    {
+      "date": "2026-03-24",
+      "member": "mama",
+      "category": "Sports",
+      "record": "Morning exercise check-in",
+      "points": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-03-24",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "Read 4 English books",
+      "points": 1,
+      "total": 16
+    },
+    {
+      "date": "2026-03-24",
+      "member": "debao",
+      "category": "Learning",
+      "record": "Read 4 English books",
+      "points": 1,
+      "total": -1
+    },
+    {
+      "date": "2026-03-24",
+      "member": "xinbao",
+      "category": "Chores",
+      "record": "Folded clothes with Mom",
+      "points": 1,
+      "total": 15
+    },
+    {
+      "date": "2026-03-24",
+      "member": "debao",
+      "category": "Chores",
+      "record": "Folded clothes with Mom",
+      "points": 1,
+      "total": -2
+    },
+    {
+      "date": "2026-03-24",
+      "member": "xinbao",
+      "category": "Routine",
+      "record": "Washed up and brushed teeth on time",
+      "points": 1,
+      "total": 14
+    },
+    {
+      "date": "2026-03-24",
+      "member": "debao",
+      "category": "Routine",
+      "record": "Washed up and brushed teeth on time",
+      "points": 1,
+      "total": -3
+    },
+    {
+      "date": "2026-03-23",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "Learned English",
+      "points": 1,
+      "total": 13
+    },
+    {
+      "date": "2026-03-23",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Went swimming",
+      "points": 1,
+      "total": 12
+    },
+    {
+      "date": "2026-03-23",
+      "member": "debao",
+      "category": "Spending",
+      "record": "Bought 冰淇淋",
+      "points": -5,
+      "total": -4
+    },
+    {
+      "date": "2026-03-23",
+      "member": "xinbao",
+      "category": "Spending",
+      "record": "Bought 冰淇淋",
+      "points": -10,
+      "total": 11
+    },
+    {
+      "date": "2026-03-23",
+      "member": "debao",
+      "category": "Sports",
+      "record": "Bounced basketball 10 times",
+      "points": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-03-23",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Bounced basketball 300 times",
+      "points": 15,
+      "total": 21
+    },
+    {
+      "date": "2026-03-22",
+      "member": "xinbao",
+      "category": "Dinner",
+      "record": "Ate dinner well",
+      "points": 1,
+      "total": 6
+    },
+    {
+      "date": "2026-03-22",
+      "member": "debao",
+      "category": "Dinner",
+      "record": "Ate dinner well",
+      "points": 1,
+      "total": 0
+    },
+    {
+      "date": "2026-03-22",
+      "member": "xinbao",
+      "category": "Sports",
+      "record": "Learned swimming",
+      "points": 1,
+      "total": 5
+    },
+    {
+      "date": "2026-03-22",
+      "member": "xinbao",
+      "category": "Learning",
+      "record": "Learned writing",
+      "points": 1,
+      "total": 4
+    },
+    {
+      "date": "2026-03-22",
+      "member": "debao",
+      "category": "Learning",
+      "record": "Learned drawing",
+      "points": 1,
+      "total": -1
+    },
+    {
+      "date": "2026-03-22",
+      "member": "xinbao",
+      "category": "Spending",
+      "record": "Bought 薯条",
+      "points": -2,
+      "total": 3
+    },
+    {
+      "date": "2026-03-22",
+      "member": "debao",
+      "category": "Spending",
+      "record": "Bought 薯条",
+      "points": -2,
+      "total": -2
+    },
+    {
+      "date": "2026-03-22",
+      "member": "xinbao",
+      "category": "Spending",
+      "record": "Bought 蜜雪冰城",
+      "points": -9,
+      "total": 5
+    },
+    {
+      "date": "2026-03-22",
+      "member": "debao",
+      "category": "Spending",
+      "record": "Bought 蜜雪冰城",
+      "points": -9,
+      "total": 0
+    },
+    {
+      "date": "2026-03-21",
+      "member": "xinbao",
+      "category": "Initial Record",
+      "record": "Initial recorded balance",
+      "points": 14,
+      "total": 14
+    },
+    {
+      "date": "2026-03-21",
+      "member": "debao",
+      "category": "Initial Record",
+      "record": "Initial recorded balance",
+      "points": 9,
+      "total": 9
+    }
   ],
-  "lastUpdated": "2026-03-27"
+  "lastUpdated": "2026-04-02"
 }
