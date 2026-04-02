@@ -18,10 +18,26 @@
     "baba": {
       "name": "Baba",
       "englishName": "Dad",
-      "currentPoints": 7
+      "currentPoints": 9
     }
   },
   "records": [
+    {
+      "date": "2026-04-02",
+      "member": "baba",
+      "category": "Sports",
+      "record": "晚上运动",
+      "points": 1,
+      "total": 9
+    },
+    {
+      "date": "2026-04-01",
+      "member": "baba",
+      "category": "Sports",
+      "record": "做20个俯卧撑",
+      "points": 1,
+      "total": 8
+    },
     {
       "date": "2026-04-02",
       "member": "xinbao",

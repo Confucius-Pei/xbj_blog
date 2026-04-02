@@ -9,11 +9,11 @@ This repository is a markdown record for tracking the family credits of members 
 | Xinbao | Fred | 15 |
 | Mama | Mom | 31 |
 | Debao | Dave | 0 |
-| Baba | Dad | 7 |
+| Baba | Dad | 9 |
 
 ## Current Summary
 
-- Total family credits: `52`
+- Total family credits: `54`
 - Last updated: `2026-04-02`
 
 ## Credit Records
@@ -141,10 +141,12 @@ Current points: `31`
 
 ### Baba (Dad)
 
-Current points: `7`
+Current points: `9`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-02 | Sports | 晚上运动 | +1 | 9 |
+| 2026-04-01 | Sports | 做20个俯卧撑 | +1 | 8 |
 | 2026-03-31 | Sports | Did 20 push-ups (tonight) | +1 | 7 |
 | 2026-03-30 | Sports | Did 20 push-ups | +1 | 6 |
 | 2026-03-29 | Routine | Slept early (Sunday night) | +1 | 5 |
