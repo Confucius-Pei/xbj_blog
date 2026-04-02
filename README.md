@@ -6,24 +6,27 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 12 |
-| Mama | Mom | 30 |
-| Debao | Dave | -3 |
+| Xinbao | Fred | 15 |
+| Mama | Mom | 31 |
+| Debao | Dave | 0 |
 | Baba | Dad | 7 |
 
 ## Current Summary
 
-- Total family credits: `45`
+- Total family credits: `52`
 - Last updated: `2026-04-02`
 
 ## Credit Records
 
 ### Xinbao (Fred)
 
-Current points: `12`
+Current points: `15`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-02 | Learning | 学习汉字 | +1 | 15 |
+| 2026-04-02 | Learning | 学习围棋 | +1 | 14 |
+| 2026-04-02 | Sports | 游泳 | +1 | 13 |
 | 2026-04-01 | Learning | English class (tonight) | +1 | 12 |
 | 2026-04-01 | Learning | 晚托 (tonight) | +1 | 11 |
 | 2026-03-31 | Sports | Swimming (today) | +1 | 10 |
@@ -60,10 +63,13 @@ Current points: `12`
 
 ### Debao (Dave)
 
-Current points: `-3`
+Current points: `0`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-02 | Learning | 学习汉字 | +1 | 0 |
+| 2026-04-02 | Learning | 学习围棋 | +1 | -1 |
+| 2026-04-02 | Sports | 游泳 | +1 | -2 |
 | 2026-04-01 | Learning | 晚托 (tonight) | +1 | -3 |
 | 2026-03-31 | Routine | Brushed teeth (tonight) | +1 | -4 |
 | 2026-03-31 | Learning | 晚托 (today) | +1 | -5 |
@@ -99,10 +105,11 @@ Current points: `-3`
 
 ### Mama (Mom)
 
-Current points: `30`
+Current points: `31`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-02 | Sports | 中午爬楼 | +1 | 31 |
 | 2026-04-02 | Sports | 中午爬楼 | +1 | 30 |
 | 2026-04-02 | Routine | 早睡 (昨晚) | +1 | 29 |
 | 2026-04-02 | Sports | 尽早运动 | +1 | 28 |
