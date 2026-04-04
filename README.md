@@ -6,24 +6,26 @@ This repository is a markdown record for tracking the family credits of members 
 
 | Member | English Name | Current Points |
 | --- | --- | ---: |
-| Xinbao | Fred | 15 |
-| Mama | Mom | 31 |
-| Debao | Dave | 0 |
-| Baba | Dad | 9 |
+| 新宝 | Xinbao (欣欣向荣) | 16 |
+| 妈妈 | Mama | 2 |
+| 得宝 | Debao (得到) | 1 |
+| 爸爸 | Baba | 10 |
 
 ## Current Summary
 
-- Total family credits: `54`
-- Last updated: `2026-04-02`
+- Total family credits: `29`
+- Last updated: `2026-04-04`
 
 ## Credit Records
 
-### Xinbao (Fred)
+### 新宝 (欣欣向荣)
 
-Current points: `15`
+Current points: `18`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-04 | Learning | 数学题（两天） | +2 | 18 |
+| 2026-04-03 | Sports | 游泳 | +1 | 16 |
 | 2026-04-02 | Learning | 学习汉字 | +1 | 15 |
 | 2026-04-02 | Learning | 学习围棋 | +1 | 14 |
 | 2026-04-02 | Sports | 游泳 | +1 | 13 |
@@ -61,12 +63,14 @@ Current points: `15`
 | 2026-03-21 | Spending | Bought 蜜雪冰城 | -9 | 5 |
 | 2026-03-21 | Initial Record | Initial recorded balance | +14 | 14 |
 
-### Debao (Dave)
+### 得宝 (得到)
 
-Current points: `0`
+Current points: `3`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-04 | Learning | 写汉字笔画和数字 | +2 | 3 |
+| 2026-04-03 | Sports | 游泳 | +1 | 1 |
 | 2026-04-02 | Learning | 学习汉字 | +1 | 0 |
 | 2026-04-02 | Learning | 学习围棋 | +1 | -1 |
 | 2026-04-02 | Sports | 游泳 | +1 | -2 |
@@ -105,10 +109,12 @@ Current points: `0`
 
 ### Mama (Mom)
 
-Current points: `31`
+Current points: `2`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-03 | Spending | 吃牛蛙 | -30 | 2 |
+| 2026-04-03 | Routine | 早睡（昨晚） | +1 | 32 |
 | 2026-04-02 | Sports | 中午爬楼 | +1 | 31 |
 | 2026-04-02 | Sports | 中午爬楼 | +1 | 30 |
 | 2026-04-02 | Routine | 早睡 (昨晚) | +1 | 29 |
@@ -145,6 +151,7 @@ Current points: `9`
 
 | Date | Category | Record | Points | Total |
 | --- | --- | --- | --- | ---: |
+| 2026-04-03 | Sports | 做20个俯卧撑 | +1 | 10 |
 | 2026-04-02 | Sports | 晚上运动 | +1 | 9 |
 | 2026-04-01 | Sports | 做20个俯卧撑 | +1 | 8 |
 | 2026-03-31 | Sports | Did 20 push-ups (tonight) | +1 | 7 |
@@ -157,6 +164,7 @@ Current points: `9`
 
 ## Notes
 
+- 做80个俯卧撑 = +1 分
 - Show the newest record first in each member table.
 - Add a new line at the top of the correct member table whenever points change.
 - `Total` means the member's balance immediately after that record happened.
